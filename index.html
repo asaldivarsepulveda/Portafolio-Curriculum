@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Nombre | Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="contact-info">
+            <p>+52 (81) 2441-7743</p>
+            <p>asaldivarsepulveda@gmail.com</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="projects.html">Proyectos</a></li>
+                <li><a href="about.html">Sobre mí</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="profile">
+            <h1>Ingeniero Alfredo Manuel Saldívar Sepúlveda</h1>
+            <p>Ingeniero Administrador de Sistemas con especialización en administración de proyectos con metodologia Agiles y flujo de sistemas con DevOps.</p>
+
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="Imagenes/SistemadeInventario.png" style="width:100%" alt="Sistema de Inventario">
+                    <div class="text">Visualización de Datos del Proyecto X</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="Imagenes/SistemaParaCargaconScripts.png" style="width:100%" alt="Persona programando">
+                    <div class="text">Programando un Modelo de IA</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="Imagenes/SistemadeInventario.png" style="width:100%" alt="Colaboración en equipo">
+                    <div class="text">Colaboración en Equipo</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="Imagenes/SistemaParaCargaconScripts.png" style="width:100%" alt="Análisis de datos">
+                    <div class="text">Análisis en Profundidad</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="Imagenes/SistemadeInventario.png" style="width:100%" alt="Celebración del éxito">
+                    <div class="text">Celebración del Éxito del Proyecto</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div style="text-align:center; margin-top: 10px;">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+            </div>
+            
+            <div class="profile-links">
+                <a href="#" class="button">Ver Mi Trabajo</a>
+                <a href="Imagenes/curriculum.pdf" class="button" download>Descargar Currículum</a>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Proyectos Destacados</h2>
+            <div class="project-grid">
+                <a href="Projecto1.html" class="project-card">
+                    <div class="project-media">
+                    <img src="Imagenes/SistemadeInventario.png" alt="Imagen del proyecto 1: Análisis Predictivo para Venta al por Menor">
+                    </div>
+                    <h3>Sistema de inventario</h3>
+                    <p>Desarrollé un sistema de inventario interactivo el cual nos permite especificar columnas, plantillas, registrar nuevas oficinas y cantidades.</p>
+                    <span>Más información</span>
+                </a>
+            
+                <a href="#" class="project-card">
+                    <div class="project-media">
+                        <img src="Imagenes/SistemaParaCargaconScripts.png" alt="Imagen del proyecto 2: Web Scraping para Investigación de Mercado">
+                    </div>
+                    <h3>Web Scraping para Investigación de Mercado</h3>
+                    <p>Creé un script de Python para recolectar y analizar datos de precios en tiempo real de sitios web de la competencia.</p>
+                    <span>Ver el Código</span>
+                </a>
+            
+                <a href="#" class="project-card">
+                    <div class="project-media">
+                        <img src="Imagenes/project3.jpg" alt="Imagen del proyecto 3: Visualización de Datos Interactiva">
+                    </div>
+                    <h3>Visualización de Datos Interactiva</h3>
+                    <p>Construí un panel de control usando D3.js y Tableau para visualizar métricas clave de negocio para la toma de decisiones ejecutivas.</p>
+                    <span>Ver Panel de Control</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Pagina Web creada para usos informativos, en caso de dudas puede contactar a asaldivarsepulveda@gmail.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
